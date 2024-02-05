@@ -83,7 +83,7 @@ function frequencyAnalysis() {
       // Filter the array to include only entries with frequency > 1
       var filteredWordFrequencyArray = wordFrequencyArray.filter(function(entry) {
         //filter len >3 and freq >2
-        return (entry.word.length>3 &&  entry.frequency > 2) ;
+        return ((entry.word.length>3 || entry.word =="rnb" || entry.word == "pop" ) &&  entry.frequency > 2) ;
       });
   
       // Sort the filtered array by frequency in descending order
