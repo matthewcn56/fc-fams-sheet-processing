@@ -1,6 +1,6 @@
 Processing Sheet for Fams!
 
-Here's a template Sheet that you can use, with built in processing. Simply duplicate the template to as many as you need, and to run the script, go to extensions, App Script, and press run.
+Here's a template Sheet that you can use, with built in processing. Simply duplicate the template fam tab to as many fams as you have. Copy and paste the code in the COPY tab into Extensions App Script, then delete that tab. Then just press run when you want to run the analyzer script!
 
 [Template Sheet!](https://docs.google.com/spreadsheets/d/1X3orOo80gArSYGe9bnIVd9u70BE3sEyP1hEV-j3QBq4/edit?usp=sharing)
 
