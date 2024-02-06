@@ -7,4 +7,8 @@ Here's a template Sheet that you can use, with built in processing. Simply dupli
 
 When pressing the run button, it'll automatically tabulate shared interests across the team for all columns in the preference section per person, giving the name of who likes it, and how many people in the team like it, sorted! Useful for organizing hoops, buying snacks for the team, or stalking people.
 
+It also runs automatically on every edit, you can stop this behavior from commenting out the final TODO at the bottom which you can remove if unwanted.
+
+
+
 For an example of this filled out, please contact Matthew Nieva (not opensourcing my team's fam sheet for security reasons)
