@@ -119,7 +119,7 @@ function frequencyAnalysis() {
 function onEdit(e){
   //run onEdit MAX once a minute to prevent race conditions
   var lock = LockService.getDocumentLock();
-  lock.waitLock(60000);
+  lock.waitLock(30000);
   
   frequencyAnalysis();
 
