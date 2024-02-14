@@ -117,5 +117,12 @@ function frequencyAnalysis() {
 
 //TODO: Comment this out if you don't want it to run every edit!
 function onEdit(e){
+  //run onEdit MAX once a minute to prevent race conditions
+  var lock = LockService.getDocumentLock();
+  lock.waitLock(60000);
+  
   frequencyAnalysis();
+
+  SpreadsheetApp.flush();
+  lock.releaseLock();
 }
